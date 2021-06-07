@@ -11,6 +11,11 @@
   margin: auto;
 }
 
+.MenuUno_cuarto{
+  text-align: right;
+}
+
+
 #div_uno{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -23,4 +28,11 @@
 .boton{
   color: black;
   text-align: center;
+}
+
+#id_jumbotron{
+    color: black;
+    background-color:cornflowerblue;
+    font-display: swap;
+    text-align: center;
 }
