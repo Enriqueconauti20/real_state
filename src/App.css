@@ -15,7 +15,6 @@
   text-align: right;
 }
 
-
 #div_uno{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -31,8 +30,65 @@
 }
 
 #id_jumbotron{
-    color: black;
-    background-color:cornflowerblue;
     font-display: swap;
     text-align: center;
+}
+
+#id_div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.MenuDos{
+  font-weight: bold;
+  text-align: justify;
+  display: run-in;
+  padding-left: 180px;
+  padding-right: 180px;
+  font-size: large;
+
+}
+
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.footer {
+  background-color: #6495ED;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+  color: whitesmoke;
+}
+
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background: #6495ED;
+  color: floralwhite;
+}
+
+address{
+  font-size: 100%;
+  margin: 0px;
+  color: whitesmoke;
+}
+
+.navbar-dark {
+  background-color: #512DA8 ;
+}
+
+#ul_footer{
+  color: whitesmoke;
 }
