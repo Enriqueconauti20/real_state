@@ -10,6 +10,8 @@ import MenuDos from './MenuDoscomponent';
 import Cabezera from "./HeaderComponent";
 import PieDePagina from "./FooterComponent";
 
+import {Switch, Route, Redirect} from 'react-router-dom';
+
 
 class Main extends Component {
 
@@ -23,18 +25,34 @@ class Main extends Component {
     }
 
     render(){
+
+        const HomePage = () => {
+
+            return(
+                <div>
+                    <div>
+                        <MenuUno servicios={this.state.Main_Servicios} />
+                    </div>
+                    <div>
+                        <MenuDos />
+                    </div>
+                </div>
+            );
+
+        }
+        
         
         return(
         <div>
             <div>
                 <Cabezera />
             </div>
-            <div id="id_div">
-                <MenuUno servicios={this.state.Main_Servicios}/>
-            </div>
-            <div id="id_div">
-                <MenuDos />
-            </div>
+            <Switch>
+                <div id="id_div">
+                    <Route path="/home" component={HomePage} />
+                </div>
+                <Redirect to="/home"/>
+            </Switch>
             <div>
                 <PieDePagina />
             </div>    

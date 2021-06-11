@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import { Link } from 'react-router-dom';
+
 class PieDePagina extends Component{
 
     render(){
@@ -10,10 +12,10 @@ class PieDePagina extends Component{
                         <div className="col-4 offset-1 col-sm-2">
                             <h5>Links</h5>
                             <ul className="list-unstyled" id="ul_footer">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Nosotros</a></li>
-                                <li><a href="#">Menu</a></li>
-                                <li><a href="contactus.html">Contacto</a></li>
+                                <li><Link to="/home">Home</Link></li>
+                                <li><Link to="/nosotros">Nosotros</Link></li>
+                                <li><Link to="/home">Servicios</Link></li>
+                                <li><Link to="/ayuda">Contacto</Link></li>
                             </ul>
                         </div>
                         <div className="col-7 col-sm-5">
