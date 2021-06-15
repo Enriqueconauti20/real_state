@@ -28,11 +28,7 @@
   color: black;
   text-align: center;
 }
-
-#id_jumbotron{
-    font-display: swap;
-    text-align: center;
-}
+    
 
 #id_div{
   padding-top: 10px;
@@ -72,11 +68,37 @@
   color: whitesmoke;
 }
 
-.jumbotron {
-  padding: 70px 30px 70px 30px;
-  margin: 0px auto;
+#id_jumbotron_Menu_Uno {
+  padding: 0px 0px 0px 0px auto;
+  margin: -20px -100px 10px -100px;
   background: #6495ED;
+  background-image: url("/src/shared/imagenes/fondo_menu_uno.jpg");
+  background-position: center;
+  background-size: cover;
   color: floralwhite;
+  font-display: swap;
+  text-align: center;
+}
+
+#id_jumbotron_Nosotros {
+  padding: 0px 0px 0px 0px auto;
+  margin: -20px -100px 10px -100px;
+  background-image: url("/src/shared/imagenes/nosotros_uno.jpg");
+  background-position: center;
+  background-size: cover;
+  color: floralwhite;
+  font-display: swap;
+  text-align: center;
+}
+
+#id_jumbotron_Nosotros:before {
+	content:'';
+	position: absolute;
+  top: 150px;
+	bottom: -50px;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.1);
 }
 
 address{
@@ -91,4 +113,23 @@ address{
 
 #ul_footer{
   color: whitesmoke;
+}
+
+#myVideoNosotros {
+  position:absolute;
+
+}
+
+.titulo_uno{
+  text-align: center;
+  font-weight: lighter;
+}
+
+.parrafo_uno{
+  text-align: justify;
+  font-weight: lighter;
+}
+
+#Nosotros_menu_dos{
+  padding: 0px 120px 0px 120px;
 }

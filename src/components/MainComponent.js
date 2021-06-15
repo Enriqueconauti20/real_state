@@ -9,6 +9,7 @@ import MenuUno from './MenucomponentUno';
 import MenuDos from './MenuDoscomponent';
 import Cabezera from "./HeaderComponent";
 import PieDePagina from "./FooterComponent";
+import Nosotros from './NosotrosComponent';
 
 import {Switch, Route, Redirect} from 'react-router-dom';
 
@@ -48,8 +49,9 @@ class Main extends Component {
                 <Cabezera />
             </div>
             <Switch>
-                <div id="id_div">
-                    <Route path="/home" component={HomePage} />
+                <Route path="/home" component={HomePage} />
+                <div>
+                    <Route path="/nosotros" component={Nosotros} />
                 </div>
                 <Redirect to="/home"/>
             </Switch>

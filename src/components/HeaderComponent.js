@@ -84,15 +84,6 @@ class Cabezera extends Component {
                         </div>    
                     </Navbar>
                 </div>
-                <div id="id_jumbotron">
-                    <Jumbotron fluid>
-                        <Container fluid>
-                            <h1 className="display-3"> El cambio comienza aquí </h1>
-                            <input id="id_input_jumbotron" type="search" placeholder="Hola, "></input>
-                        </Container>
-
-                    </Jumbotron>
-                </div>
             </React.Fragment>
         );
     }
