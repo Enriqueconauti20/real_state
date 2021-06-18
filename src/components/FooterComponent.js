@@ -12,10 +12,11 @@ class PieDePagina extends Component{
                         <div className="col-4 offset-1 col-sm-2">
                             <h5>Links</h5>
                             <ul className="list-unstyled" id="ul_footer">
-                                <li><Link to="/home">Home</Link></li>
-                                <li><Link to="/nosotros">Nosotros</Link></li>
-                                <li><Link to="/home">Servicios</Link></li>
-                                <li><Link to="/ayuda">Contacto</Link></li>
+                                <li><Link to="/home"><span className="licolor">Home</span></Link></li>
+                                <li><Link to="/nosotros"><span className="licolor">Nosotros</span></Link></li>
+                                <li><Link to="/servicios"><span className="licolor">Servicios</span></Link></li>
+                                <li><Link to="/ayuda"><span className="licolor">Contacto</span></Link></li>
+                                <li><Link to= "/inversionistas"><span className="licolor">Inversionistas</span></Link></li>
                             </ul>
                         </div>
                         <div className="col-7 col-sm-5">

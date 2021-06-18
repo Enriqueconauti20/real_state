@@ -12,7 +12,7 @@ class MenuDos extends Component {
         return(
             <div>
                 <Navbar color="light" light expand="md">
-                    <Nav className="mr-auto MenuDos" navbar>
+                    <Nav className="mr-auto MenuDosUno" navbar>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
                                 <span>Bienes Raíces</span>

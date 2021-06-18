@@ -31,7 +31,7 @@ class Nosotros extends Component{
                         </Jumbotron>
                     </div>
                 </div>
-                <div className="container" id="Nosotros_menu_dos">
+                <div className="container MenuNosotros_dos">
                     <div className="row">
                         <h3 className="titulo_uno">
                         Brati está construyendo la primera plataforma inmobiliaria moderna en Sudamerica, combinando los mejores talentos de la industria con la tecnología para hacer que la experiencia de búsqueda y venta sea inteligente y sin problemas.

@@ -29,7 +29,7 @@ class MenuUno extends Component {
                                 {in_serv.subtitulo}
                             </CardSubtitle>
                             <CardText>
-                                <span className="MenuUno_dos">{in_serv.descripcion}</span>
+                                <span>{in_serv.descripcion}</span>
                             </CardText>
                             <div className="MenuUno_uno">
                                 <Button color="primary"><a href={in_serv.link} className="boton">{in_serv.boton}</a></Button>
