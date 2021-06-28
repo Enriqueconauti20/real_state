@@ -1,4 +1,4 @@
-export const serviciosJSON = 
+export const objeto_serviciosJSON = 
     [
         {
             id:0,
@@ -8,16 +8,6 @@ export const serviciosJSON =
             imagen: 'assets/images/comprar160x160.jpg',
             link: 'https://www.google.com.pe',
             subtitulo: 'Empoderado con DATA',
-            opiniones: [
-                {
-                    id: 0,
-                    calificacion: 5,
-                    comentario: "Imagine all the eatables, living in conFusion!",
-                    autor: "John Lemon",
-                    fecha: "2012-10-16T17:57:28.556094Z"
-
-                }
-            ]
         },
         {
             id:1,
@@ -27,15 +17,6 @@ export const serviciosJSON =
             imagen: "assets/images/vender160x160.jpg",
             link: 'https://www.google.com.pe',
             subtitulo: 'Empoderado con DATA',
-            opiniones: [
-                {
-                    id: 1,
-                    calificacion: 4,
-                    comentario: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                    autor: "Paul McVites",
-                    fecha: "2014-09-05T17:57:28.556094Z"    
-                }
-            ]
         },
         {
             id:2,
@@ -45,15 +26,6 @@ export const serviciosJSON =
             imagen: "assets/images/alquilar160x160.jpg",
             link: 'https://www.google.com.pe',
             subtitulo: 'Empoderado con DATA',
-            opiniones: [
-                {
-                    id: 2,
-                    calificacion: 3,
-                    comentario: "Eat it, just eat it!",
-                    autor: "Michael Jaikishan",
-                    fecha: "2015-02-13T17:57:28.556094Z"
-                }
-            ]
         }
 
     ];

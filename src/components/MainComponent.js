@@ -1,12 +1,8 @@
 //Componente tipo Container
-//REDUX cuarto componente
 //REDUX añadimos withRouter y connect
 import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 
-
-import { props } from "bluebird";
-import { from } from "pumpify";
 import React, { Component } from 'react';
 
 import MenuUno from './MenuUnocomponent';
@@ -21,7 +17,7 @@ import {Switch, Route, Redirect} from 'react-router-dom';
 //REDUX necesito conectar este componente a mi Redux Store 
 const mapStateToProps=(state)=>{
     return {
-        Main_Servicios: state.Redux_Servicios,
+        Main_objeto_Servicios: state.store_redux_objeto_Servicios,
     }
 }
 //REDUX ahora vamos al final de este archivo para conectarnos con la Store REDUX
@@ -44,7 +40,7 @@ class Main extends Component {
             return(
                 <div>
                     <div>
-                        <MenuUno servicios={this.props.Main_Servicios} />
+                        <MenuUno servicios={this.props.Main_objeto_Servicios} />
                     </div>
                     <div>
                         <MenuDos />

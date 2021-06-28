@@ -1,5 +1,5 @@
 //Componente tipo Presentacion
-//REDUX tercer elemento
+
 import React, { Component } from 'react';
 import './App.css';
 import Main from './components/MainComponent';
